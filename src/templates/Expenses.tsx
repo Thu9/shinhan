@@ -1,7 +1,7 @@
 export default function Expenses() {
   return (
     <div
-      className="h-auto flex flex-col text-center bg-gradient-to-b from-gradient-1 to-gradient-2 
+      className="h-auto text-center bg-gradient-to-b from-gradient-1 to-gradient-2 
     rounded-b-[30px] py-[30px] px-[10px]"
     >
       <div className="h-[89px] flex flex-col justify-center">
@@ -10,10 +10,7 @@ export default function Expenses() {
           128만원 + 교육비
         </p>
       </div>
-      <img
-        className="mx-[10px] self-center"
-        src="src/assets/images/title-image.png"
-      />
+      <img className="mx-auto" src="src/assets/images/title-image.png" />
 
       <div
         className="flex justify-between items-center m-[20px] px-[20px] py-[10px] border border-[white] 
@@ -24,7 +21,7 @@ export default function Expenses() {
             <img className="w-[34px]" src="src/assets/icons/user.png" />
           </div>
           <div className="text-left pl-[10px]">
-            <p className="font-semibold text-[12px] text-[#788FBD]">
+            <p className="font-semibold text-[12px] text-shinhan-Blue-350">
               신한파트너스 6기
             </p>
             <p className="font-bold text-[14px]">이*우 님</p>
