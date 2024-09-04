@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "SUIT Variable";
+  src: url("./assets/fonts/SUIT-Variable.woff2") format("woff2-variations");
+}
+
+@font-face {
+  font-family: "OneShinhan";
+  src: url("./assets/fonts/OneShinhanBold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "OneShinhan";
+  src: url("./assets/fonts/OneShinhanMedium.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "OneShinhan";
+  src: url("./assets/fonts/OneShinhanLight.ttf") format("truetype");
+  font-weight: 300;
+}
+
+body {
+  font-family: "Suit Variable";
+  padding: 0;
+  margin: 0;
+  color: #232428;
+}
+
+.oneShinhan {
+  font-family: "OneShinhan";
+}
