@@ -1,0 +1,20 @@
+.desc::before {
+  display: inline-block;
+  content: "";
+  margin: 0 3px;
+  width: 1px;
+  height: 8px;
+  background: #788fbd;
+  opacity: 40%;
+}
+
+.ellipsis {
+  display: -webkit-box; /* 웹킷 브라우저 전용 박스 */
+  -webkit-line-clamp: 7; /* 최대 표시할 줄 수 (웹킷 전용) */
+  line-clamp: 9; /* 표준 속성 (아직 많은 브라우저에서 지원되지 않음) */
+  -webkit-box-orient: vertical; /* 웹킷 브라우저 수직 박스 설정 */
+  box-orient: vertical; /* 표준 속성 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 162%;
+}
