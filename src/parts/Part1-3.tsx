@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { formatWon } from "../pipe";
 
-export default function Part_1_3() {
+export default function Part1_3() {
   var sliderSettings = {
     arrows: false,
     infinite: true,

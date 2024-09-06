@@ -1,6 +1,6 @@
 import TitleBox from "../components/TItleBox";
 
-export default function Part_2_1() {
+export default function Part2_1() {
   const options = {
     spaceBetween: 50,
   };

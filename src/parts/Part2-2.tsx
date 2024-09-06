@@ -3,7 +3,7 @@ import "swiper/swiper-bundle.css";
 import { part2Data } from "../datas/Data";
 import { useEffect, useRef } from "react";
 
-export default function Part_2_2() {
+export default function Part2_2() {
   useEffect(() => {
     const swiperSlides =
       document.querySelectorAll<HTMLDivElement>(".swiper-slide");

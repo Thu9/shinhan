@@ -1,13 +1,13 @@
-import Part_1_1 from "../parts/Part1-1";
-import Part_1_2 from "../parts/Part1-2";
-import Part_1_3 from "../parts/Part1-3";
+import Part1_1 from "../parts/Part1-1";
+import Part1_2 from "../parts/Part1-2";
+import Part1_3 from "../parts/Part1-3";
 
-export default function Part_1() {
+export default function Part1() {
   return (
     <div className="mx-[10px]">
-      <Part_1_1 />
-      <Part_1_2 />
-      <Part_1_3 />
+      <Part1_1 />
+      <Part1_2 />
+      <Part1_3 />
     </div>
   );
 }

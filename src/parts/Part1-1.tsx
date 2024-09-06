@@ -1,7 +1,7 @@
 import ContentsBox from "../components/ContentsBox";
 import TitleBox from "../components/TItleBox";
 
-export default function Part_1_1() {
+export default function Part1_1() {
   return (
     <>
       <div className="my-[30px] mx-[30px]">

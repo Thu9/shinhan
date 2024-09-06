@@ -1,4 +1,4 @@
-export default function Part_1_2() {
+export default function Part1_2() {
   return (
     <div className="my-[10px]">
       <div className="py-[20px]">
