@@ -39,7 +39,7 @@ export const part1_3Data: Part1_3Data[] = [
     range: "40대 초반 주부",
     rank: "파트너스",
     earnings: 763000,
-    emoji: 1,
+    emoji: 4,
     contents:
       "출산 후 어느 회사도 저를 받아주지 않았습니다. 육아를 하면서도 월수입 100~200만원 이상 소득을 올릴 수 있었고 내가 나의 스케줄을 조정하며 주도적인 삶을 살며 원하는 만큼 벌 수 있는 신한 파트너스 너무 좋아요! 경력 단절된 제가 신한이라는 대기업에서 일할 수 있어서 너무 좋아요~ 애사심이 뿜뿜!",
   },
@@ -48,7 +48,7 @@ export const part1_3Data: Part1_3Data[] = [
     range: "20대 초반 학생",
     rank: "파트너스",
     earnings: 1803000,
-    emoji: 2,
+    emoji: 5,
     contents:
       "교육을 듣고 알려주시는 대로 따라 해서 보험료도 절감하고 방학 때 가족끼리 좋은 시간 보내고 왔어요. 부모님이 너무 행복해 하셨어요. 대학 동기한테 자랑했더니 자기도 하고 싶다고 하네요 ㅎㅎ",
   },
@@ -57,7 +57,7 @@ export const part1_3Data: Part1_3Data[] = [
     range: "30대 중반",
     rank: "매니저",
     earnings: 1110300,
-    emoji: 3,
+    emoji: 6,
     contents:
       "5년 동안 정말 어둡고 미래가 보이지 않던 고시 생활을 정리하고 월급 300만원을 넘기기 힘들었는데, 신한 매니저로 입사하게 되어 현재 월 수령액이 2배 이상이라 너무 풍족한 삶을 누리고 있습니다.",
   },
@@ -69,5 +69,33 @@ export const part1_3Data: Part1_3Data[] = [
     emoji: 1,
     contents:
       "10년 동안 영업인으로 살아왔지만 매월 불안정한 소득으로 미래가 불투명했는데, 신한 매니저로 입사 후 안정적인 월 소득으로 인생을 설계해 나가고 있습니다. 안정감이 주는 행복 너무 좋습니다 짱짱!",
+  },
+];
+
+interface Part2Data {
+  job: string;
+  earnings: number;
+  emoji: string;
+}
+export const part2Data: Part2Data[] = [
+  {
+    job: "직장인",
+    earnings: 120,
+    emoji: "worker",
+  },
+  {
+    job: "주부",
+    earnings: 116,
+    emoji: "house-wife",
+  },
+  {
+    job: "자영업자",
+    earnings: 120,
+    emoji: "self-employed",
+  },
+  {
+    job: "기타",
+    earnings: 120,
+    emoji: "etc",
   },
 ];

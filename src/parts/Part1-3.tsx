@@ -28,10 +28,10 @@ export default function Part_1_3() {
               <ContentsBox>
                 <div className="my-[20px] mx-[15px]">
                   <div className="flex items-center">
-                    <div className="w-[48px] h-[42px] flex">
+                    <div className="">
                       <img
                         className="m-auto"
-                        src={`src/assets/icons/emoji-${emoji}.png`}
+                        src={`src/assets/icons/emoji-${emoji}.svg`}
                       ></img>
                     </div>
 

@@ -18,3 +18,11 @@
   text-overflow: ellipsis;
   line-height: 162%;
 }
+
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+
+.swiper {
+  overflow: visible !important;
+}
