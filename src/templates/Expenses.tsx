@@ -10,7 +10,7 @@ export default function Expenses() {
           128만원 + 교육비
         </p>
       </div>
-      <img className="mx-auto" src="src/assets/images/title-image.png" />
+      <img className="mx-auto" src="src/assets/images/title-image.svg" />
 
       <div
         className="flex justify-between items-center m-[20px] px-[20px] py-[10px] border border-[white] 

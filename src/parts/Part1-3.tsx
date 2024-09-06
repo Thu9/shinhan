@@ -1,9 +1,9 @@
-import BorderBox from "../components/BorderBox";
+import ContentsBox from "../components/ContentsBox";
 import { part1_3Data } from "../datas/Data";
-import { formatWon } from "../Pipe";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { formatWon } from "../pipe";
 
 export default function Part_1_3() {
   var sliderSettings = {
@@ -20,12 +20,12 @@ export default function Part_1_3() {
   };
   //
   return (
-    <div className="m-[10px]">
+    <div className="p-[10px] mb-[10px]">
       <Slider {...sliderSettings}>
         {part1_3Data.map(
           ({ name, range, earnings, contents, emoji }, index) => (
             <div key={index} className="pr-[10px]">
-              <BorderBox>
+              <ContentsBox>
                 <div className="my-[20px] mx-[15px]">
                   <div className="flex items-center">
                     <div className="w-[48px] h-[42px] flex">
@@ -57,7 +57,7 @@ export default function Part_1_3() {
                     {contents}
                   </p>
                 </div>
-              </BorderBox>
+              </ContentsBox>
             </div>
           )
         )}

@@ -1,17 +1,13 @@
-import BorderBox from "../components/BorderBox";
+import ContentsBox from "../components/ContentsBox";
+import TitleBox from "../components/TItleBox";
 
 export default function Part_1_1() {
   return (
     <>
       <div className="my-[30px] mx-[30px]">
-        <BorderBox>
+        <ContentsBox>
           <div className="pt-[30px] pb-[20px] px-[10px]">
-            <div
-              className="w-[92px] h-[21px] text-shinhan-Blue-350 text-center content-center
-            border border-shinhan-Blue-350 rounded-full mx-auto"
-            >
-              <p className="font-bold text-[12px]">신한 파트너스</p>
-            </div>
+            <TitleBox title="신한 파트너스" />
             <p className="text-[20px] text-center font-bold py-[15px]">
               정말 한 달에
               <br />
@@ -20,7 +16,10 @@ export default function Part_1_1() {
               </span>
               이면 되나요?
             </p>
-            <img className="mx-auto" src="src/assets/images/text-1-image.png" />
+            <img
+              className="mx-auto my-[20px]"
+              src="src/assets/images/text-1-image.svg"
+            />
             <div className="py-[20px]">
               <p className="text-center font-bold">네, 물론이에요!</p>
               <p className="text-center text-[12px] text-shinhan-Blue-350 mt-[12px]">
@@ -33,7 +32,7 @@ export default function Part_1_1() {
               </p>
             </div>
           </div>
-        </BorderBox>
+        </ContentsBox>
       </div>
     </>
   );

@@ -4,7 +4,7 @@ import Part_1_3 from "../parts/Part1-3";
 
 export default function Part_1() {
   return (
-    <div className="px-[10px] flex flex-col">
+    <div className="mx-[10px]">
       <Part_1_1 />
       <Part_1_2 />
       <Part_1_3 />
