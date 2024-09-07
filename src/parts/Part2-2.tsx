@@ -1,7 +1,7 @@
+import { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 import { part2Data } from "../datas/Data";
-import { useEffect, useRef } from "react";
 
 export default function Part2_2() {
   useEffect(() => {
@@ -14,12 +14,7 @@ export default function Part2_2() {
 
   return (
     <div className="pl-[41px] pb-[30px]">
-      <Swiper
-        spaceBetween={10}
-        slidesPerView={"auto"}
-        centeredSlides={false}
-        onSlideChange={() => console.log("slide change")}
-      >
+      <Swiper spaceBetween={10} slidesPerView={"auto"} centeredSlides={false}>
         {part2Data.map(({ job, earnings, emoji }, index) => (
           <SwiperSlide key={index}>
             <div className="bg-shinhan-Blue-500 w-[162px] h-[100px] rounded-[10px] px-[19.5px] py-[20px]">

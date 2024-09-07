@@ -1,5 +1,5 @@
 import ContentsBox from "../components/ContentsBox";
-import TitleBox from "../components/TItleBox";
+import TitleBox from "../components/TitleBox";
 
 export default function Part1_1() {
   return (
@@ -7,7 +7,7 @@ export default function Part1_1() {
       <div className="my-[30px] mx-[30px]">
         <ContentsBox>
           <div className="pt-[30px] pb-[20px] px-[10px]">
-            <TitleBox title="신한 파트너스" />
+            <TitleBox>신한 파트너스</TitleBox>
             <p className="text-[20px] text-center font-bold py-[15px]">
               정말 한 달에
               <br />
