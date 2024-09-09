@@ -17,7 +17,7 @@ export default function Part3_1() {
         </p>
         <img
           className="py-[20px] px-[10px]"
-          src="src/assets/images/graph-part3.svg"
+          src="src/assets/images/part3-image1.svg"
           alt=""
         />
 
@@ -33,7 +33,7 @@ export default function Part3_1() {
         <Paragraph color="blue" size="xs">
           나의 예상 소득을 확인할 수 있어요!
         </Paragraph> */}
-        <div className="w-[277px] my-[10px]">
+        <div className="max-w-[277px] my-[10px] mx-[17px]">
           <Button>예상 소득 계산해보기</Button>
         </div>
       </div>
