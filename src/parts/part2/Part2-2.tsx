@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
-import { part2Data } from "../datas/Data";
+import { part2Data } from "../../datas/Data";
 
 export default function Part2_2() {
   useEffect(() => {

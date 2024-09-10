@@ -1,6 +1,6 @@
-import Button from "../components/Button";
-import ContentsBox from "../components/ContentsBox";
-import TitleBox from "../components/TitleBox";
+import Button from "../../components/Button";
+import ContentsBox from "../../components/ContentsBox";
+import TitleBox from "../../components/TitleBox";
 
 export default function Part3_1() {
   return (

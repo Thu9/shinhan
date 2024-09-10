@@ -1,5 +1,5 @@
-import ContentsBox from "../components/ContentsBox";
-import TitleBox from "../components/TitleBox";
+import ContentsBox from "../../components/ContentsBox";
+import TitleBox from "../../components/TitleBox";
 
 export default function Part3_2() {
   return (

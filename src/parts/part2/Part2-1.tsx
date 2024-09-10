@@ -1,4 +1,4 @@
-import TitleBox from "../components/TitleBox";
+import TitleBox from "../../components/TitleBox";
 
 export default function Part2_1() {
   return (

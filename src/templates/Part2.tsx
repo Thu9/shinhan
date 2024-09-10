@@ -1,5 +1,5 @@
-import Part2_1 from "../parts/Part2-1";
-import Part2_2 from "../parts/Part2-2";
+import Part2_1 from "../parts/part2/Part2-1";
+import Part2_2 from "../parts/part2/Part2-2";
 
 export default function Part2() {
   return (

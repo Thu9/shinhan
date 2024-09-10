@@ -1,9 +1,9 @@
-import ContentsBox from "../components/ContentsBox";
-import { part1_3Data } from "../datas/Data";
+import ContentsBox from "../../components/ContentsBox";
+import { part1_3Data } from "../../datas/Data";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { formatWon } from "../pipe";
+import { formatWon } from "../../pipe";
 
 export default function Part1_3() {
   var sliderSettings = {
