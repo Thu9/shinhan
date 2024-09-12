@@ -99,3 +99,46 @@ export const part2Data: Part2Data[] = [
     emoji: "etc",
   },
 ];
+
+interface Part5Data {
+  job: string;
+  count: number;
+}
+
+export const part5_1Data: Part5Data[] = [
+  {
+    job: "직장인",
+    count: 412,
+  },
+  {
+    job: "주부",
+    count: 570,
+  },
+  {
+    job: "자영업자",
+    count: 299,
+  },
+  {
+    job: "기타",
+    count: 219,
+  },
+];
+
+export const part5_2Data: Part5Data[] = [
+  {
+    job: "직장인",
+    count: 210,
+  },
+  {
+    job: "주부",
+    count: 665,
+  },
+  {
+    job: "자영업자",
+    count: 516,
+  },
+  {
+    job: "기타",
+    count: 402,
+  },
+];

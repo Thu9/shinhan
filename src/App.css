@@ -7,6 +7,15 @@
   background: #788fbd;
   opacity: 40%;
 }
+.desc-l {
+  display: inline-block;
+  content: "";
+  margin: 0 8px;
+  width: 1px;
+  height: 32.5px;
+  background-color: #232428;
+  opacity: 10%;
+}
 
 .ellipsis {
   display: -webkit-box; /* 웹킷 브라우저 전용 박스 */
