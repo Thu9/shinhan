@@ -32,6 +32,7 @@ body {
   text-align: center;
   text-align: -webkit-center;
   overflow-x: hidden;
+  min-width: 340px;
 }
 
 .oneShinhan {

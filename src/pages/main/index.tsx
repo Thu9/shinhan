@@ -6,10 +6,11 @@ import Part4 from "../../templates/Part4";
 import Part5 from "../../templates/Part5";
 import Part6 from "../../templates/Part6";
 import Part7 from "../../templates/Part7";
+import Part8 from "../../templates/Part8";
 
 export default function Main() {
   return (
-    <div className="pt-[51px] max-w-[760px]">
+    <div className="pt-[51px]">
       <Expenses />
       <Part1 />
       <Part2 />
@@ -18,6 +19,7 @@ export default function Main() {
       <Part5 />
       <Part6 />
       <Part7 />
+      <Part8 />
     </div>
   );
 }

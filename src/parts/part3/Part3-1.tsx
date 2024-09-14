@@ -6,7 +6,7 @@ export default function Part3_1() {
   return (
     <ContentsBox>
       <div className="pt-[30px] pb-[20px]">
-        <TitleBox type="advise">HOT</TitleBox>
+        <TitleBox color="green">HOT</TitleBox>
         <p className="font-bold py-[15px] px-[10px]">
           가장 많이 절감하신 분은
           <br />
