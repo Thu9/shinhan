@@ -4,7 +4,7 @@ import TitleBox from "../../components/TitleBox";
 
 export default function Part8_1() {
   return (
-    <div className="max-w-[311px] my-[30px]">
+    <div className="inner my-[30px]">
       <ContentsBox type="green">
         <div className="my-[30px]">
           <TitleBox color="green">HOT</TitleBox>
@@ -19,7 +19,7 @@ export default function Part8_1() {
             </p>
           </div>
           <img className="mx-auto" src="src/assets/images/part8-image.svg" />
-          <div className="mx-[17px] my-[10px]">
+          <div className="mx-[17px] my-[10px] max-w-[277px]">
             <Button color="green">30분 공부하고 합격하러 가기</Button>
           </div>
         </div>

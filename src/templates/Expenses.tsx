@@ -1,7 +1,7 @@
 export default function Expenses() {
   return (
     <div
-      className="h-auto text-center bg-gradient-to-b from-gradient-1 to-gradient-2 
+      className="inner h-auto text-center bg-gradient-to-b from-gradient-1 to-gradient-2 
     rounded-b-[30px] py-[30px] px-[10px]"
     >
       <div className="h-[89px] flex flex-col justify-center">

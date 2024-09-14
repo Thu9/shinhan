@@ -4,7 +4,7 @@ import { part6_1Data } from "../../datas/Data";
 export default function Part6_1() {
   return (
     <>
-      <div className="mt-[30px]">
+      <div className="inner mt-[30px]">
         <TitleBox>합류 후기</TitleBox>
       </div>
       <div className="px-[10px] py-[15px]">

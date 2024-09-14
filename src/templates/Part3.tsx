@@ -3,7 +3,7 @@ import Part3_2 from "../parts/part3/Part3-2";
 
 export default function Part3() {
   return (
-    <div className="mx-[41px] my-[30px]">
+    <div className="inner mx-[41px] my-[30px]">
       <Part3_1 />
       <Part3_2 />
     </div>

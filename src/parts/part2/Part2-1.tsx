@@ -2,7 +2,7 @@ import TitleBox from "../../components/TitleBox";
 
 export default function Part2_1() {
   return (
-    <div className="px-[41px]">
+    <div className="inner px-[41px]">
       <div className="mt-[30px]">
         <TitleBox>신한 파트너스</TitleBox>
       </div>

@@ -1,9 +1,9 @@
 import TitleBox from "../../components/TitleBox";
-import { part6_1Data, part6_2Data } from "../../datas/Data";
+import { part6_2Data } from "../../datas/Data";
 
 export default function Part6_2() {
   return (
-    <div className="mb-[40px]">
+    <div className="inner mb-[40px]">
       <div className="mt-[40px]">
         <TitleBox>합류 후기</TitleBox>
       </div>

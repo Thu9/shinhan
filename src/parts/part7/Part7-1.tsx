@@ -2,7 +2,7 @@ import TitleBox from "../../components/TitleBox";
 
 export default function Part7_1() {
   return (
-    <div className="mt-[30px] mb-[10px]">
+    <div className="inner mt-[30px] mb-[10px]">
       <TitleBox>시험.교육 합격시</TitleBox>
       <p className="px-[10px] py-[15px]">교육비 안내</p>
       <img

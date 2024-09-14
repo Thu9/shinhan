@@ -13,7 +13,7 @@ export default function Part2_2() {
   }, []);
 
   return (
-    <div className="pl-[41px] pb-[30px]">
+    <div className="inner pl-[41px] pb-[30px]">
       <Swiper spaceBetween={10} slidesPerView={"auto"} centeredSlides={false}>
         {part2Data.map(({ job, earnings, emoji }, index) => (
           <SwiperSlide key={index}>

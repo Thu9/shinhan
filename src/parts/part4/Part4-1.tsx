@@ -2,7 +2,7 @@ import TitleBox from "../../components/TitleBox";
 
 export default function Part4_1() {
   return (
-    <div className="pt-[30px] pb-[10px] px-[41px]">
+    <div className="inner pt-[30px] pb-[10px] px-[41px]">
       <TitleBox>신한 파트너스</TitleBox>
       <p className="text-[20px] font-bold py-[15px] px-[10px]">
         <span className="text-shinhan-Blue-500 font-extrabold">누구나 </span>할
