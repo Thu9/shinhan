@@ -5,6 +5,7 @@ import Part3 from "../../templates/Part3";
 import Part4 from "../../templates/Part4";
 import Part5 from "../../templates/Part5";
 import Part6 from "../../templates/Part6";
+import Part7 from "../../templates/Part7";
 
 export default function Main() {
   return (
@@ -16,6 +17,7 @@ export default function Main() {
       <Part4 />
       <Part5 />
       <Part6 />
+      <Part7 />
     </div>
   );
 }
