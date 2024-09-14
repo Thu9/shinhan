@@ -1,4 +1,4 @@
-import Part5_1 from "../parts/part5/part5-1";
+import Part5_1 from "../parts/part5/Part5-1";
 
 export default function Part5() {
   return (

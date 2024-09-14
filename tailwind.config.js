@@ -11,6 +11,7 @@ export default {
         "shinhan-Blue-400": "#2878f5",
         "shinhan-Blue-350": "#788FBD",
         "shinhan-Blue-300": "#4baff5",
+        "shinhan-Blue-250": "#DDEEFF",
         "shinhan-Blue-200": "#8cd2f5",
         "shinhan-Blue-150": "#D1E9FE",
         "shinhan-Blue-100": "#f5faff",

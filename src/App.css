@@ -35,3 +35,14 @@
 .swiper {
   overflow: visible !important;
 }
+
+.part6-contents span {
+  background: #ccff00;
+  font-weight: 800;
+}
+
+.part6-title {
+  span {
+    color: #0046ff;
+  }
+}
