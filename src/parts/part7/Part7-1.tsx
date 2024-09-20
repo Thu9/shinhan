@@ -5,7 +5,10 @@ export default function Part7_1() {
   return (
     <div className="inner mt-[30px] mb-[10px]">
       <TitleBox>시험.교육 합격시</TitleBox>
-      <p className="px-[10px] py-[15px]">교육비 안내</p>
+      <p className="px-[10px] py-[15px] text-[20px] font-bold">
+        <span className="text-shinhan-Blue-500 font-extrabold">교육비</span>{" "}
+        안내
+      </p>
       <motion.img
         className="mx-auto my-[10px]"
         src="images/part7-image.svg"
