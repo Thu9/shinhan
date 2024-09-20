@@ -42,3 +42,7 @@ body {
 .oneShinhan {
   font-family: "OneShinhan";
 }
+
+html {
+  scroll-behavior: smooth;
+}
