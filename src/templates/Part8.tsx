@@ -8,7 +8,7 @@ export default function Part8() {
         <Part8_1 />
         <Part8_2 />
       </div>
-      <img className="w-full" src="src/assets/images/part8-image2.svg" />
+      <img className="w-full" src="images/part8-image2.svg" />
     </>
   );
 }

@@ -1,4 +1,5 @@
 import TitleBox from "../../components/TitleBox";
+import { motion } from "framer-motion";
 
 export default function Part4_2() {
   return (
@@ -8,11 +9,22 @@ export default function Part4_2() {
         <span className="text-shinhan-Blue-500 font-extrabold">업무 파트</span>
         는 두 가지가 있어요!
       </p>
-      <img className="mx-auto" src="src/assets/images/part4-image2.png" />
+      <motion.img
+        className="mx-auto"
+        src="images/part4-image2.png"
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.1, duration: 0.3 }}
+      />
 
       <div className="mt-[20px]">
         <div className="flex gap-[6px] justify-center">
-          <div className="relative w-[164px] h-[118px] bg-shinhan-Blue-500 rounded-[10px] text-white content-center pt-[20px]">
+          <motion.div
+            className="relative w-[164px] h-[118px] bg-shinhan-Blue-500 rounded-[10px] text-white content-center pt-[20px]"
+            initial={{ rotateY: 100 }}
+            whileInView={{ rotateY: 0 }}
+            transition={{ delay: 0.2, duration: 0.5 }}
+          >
             <div className="absolute -top-[25px] left-[50%] -translate-x-1/2 w-[52px] h-[52px] bg-white text-shinhan-Blue-500 rounded-full font-[900] border-4 border-shinhan-Blue-500 content-center">
               01
             </div>
@@ -21,8 +33,13 @@ export default function Part4_2() {
               <br />
               합류하기
             </p>
-          </div>
-          <div className="relative w-[164px] h-[118px] bg-shinhan-Blue-500 rounded-[10px] text-white content-center pt-[20px]">
+          </motion.div>
+          <motion.div
+            className="relative w-[164px] h-[118px] bg-shinhan-Blue-500 rounded-[10px] text-white content-center pt-[20px]"
+            initial={{ rotateY: 260 }}
+            whileInView={{ rotateY: 360 }}
+            transition={{ delay: 0.2, duration: 0.5 }}
+          >
             <div className="absolute -top-[25px] left-[50%] -translate-x-1/2 w-[52px] h-[52px] bg-white text-shinhan-Blue-500 rounded-full font-[900] border-4 border-shinhan-Blue-500 content-center">
               02
             </div>
@@ -33,7 +50,7 @@ export default function Part4_2() {
               <br />
               합류하기
             </p>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

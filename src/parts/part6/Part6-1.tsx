@@ -1,5 +1,6 @@
 import TitleBox from "../../components/TitleBox";
 import { part6_1Data } from "../../datas/Data";
+import { motion } from "framer-motion";
 
 export default function Part6_1() {
   return (
@@ -17,11 +18,16 @@ export default function Part6_1() {
           합류 후기
         </p>
       </div>
-      <div className="max-w-[311px] bg-white rounded-[10px] py-[5px]">
+      <motion.div
+        className="max-w-[311px] bg-white rounded-[10px] py-[5px]"
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.1, duration: 0.3 }}
+      >
         {part6_1Data.map(({ name, job, title, contents }, index) => (
           <div key={index} className="p-[10px]">
             <div className="flex items-center px-[10.5px] py-[5px]">
-              <img src="src/assets/icons/part6-icon1.svg" alt="" />
+              <img src={`icons/part6-icon${index + 1}.svg`} alt="" />
               <div className="text-[10px] text-left ml-[10px]">
                 <p
                   className="part6-title text-[12px] font-extrabold"
@@ -41,7 +47,7 @@ export default function Part6_1() {
             </div>
           </div>
         ))}
-      </div>
+      </motion.div>
     </>
   );
 }

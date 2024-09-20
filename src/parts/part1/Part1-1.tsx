@@ -1,10 +1,11 @@
 import ContentsBox from "../../components/ContentsBox";
 import TitleBox from "../../components/TitleBox";
+import { motion } from "framer-motion";
 
 export default function Part1_1() {
   return (
     <>
-      <div className="my-[30px] mx-[30px]">
+      <div className="my-[30px] mx-[41px]">
         <ContentsBox>
           <div className="pt-[30px] pb-[20px] px-[10px]">
             <TitleBox>신한 파트너스</TitleBox>
@@ -16,20 +17,35 @@ export default function Part1_1() {
               </span>
               이면 되나요?
             </p>
-            <img
+            <motion.img
               className="mx-auto my-[20px]"
-              src="src/assets/images/text-1-image.svg"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1, duration: 0.3 }}
+              src="images/text-1-image.svg"
             />
             <div className="py-[20px]">
-              <p className="text-center font-bold">네, 물론이에요!</p>
-              <p className="text-center text-[12px] text-shinhan-Blue-350 mt-[12px]">
+              <motion.p
+                className="text-center font-bold"
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.1, duration: 0.3 }}
+              >
+                네, 물론이에요!
+              </motion.p>
+              <motion.p
+                className="text-center text-[12px] text-shinhan-Blue-350 mt-[12px]"
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.1, duration: 0.3 }}
+              >
                 내 보험 점검부터 계약을 체결하는 데
                 <br />
                 <span className="font-bold text-shinhan-Blue-500">
                   평균적으로 1시간
                 </span>
                 이 걸려요
-              </p>
+              </motion.p>
             </div>
           </div>
         </ContentsBox>

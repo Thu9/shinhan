@@ -1,6 +1,6 @@
 export default function Part1_2() {
   return (
-    <div className="my-[10px]">
+    <div className="my-[10px] mx-[10px]">
       <div className="py-[20px]">
         <p className="font-extrabold text-center">영상 제목</p>
         <p className="text-[12px] text-shinhan-Blue-350 text-center pt-[10px]">

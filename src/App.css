@@ -32,11 +32,13 @@
   line-height: 162%;
 }
 
-.swiper-wrapper {
+.part1-3 .swiper-wrapper,
+.part2-2 .swiper-wrapper {
   transition-timing-function: linear !important;
 }
 
-.swiper {
+.part1-3 .swiper,
+.part2-2 .swiper {
   overflow: visible !important;
 }
 
@@ -48,5 +50,31 @@
 .part6-title {
   span {
     color: #0046ff;
+  }
+}
+
+.fill-animate {
+  animation: fillUp 0.7s forwards;
+}
+
+.down.fill-animate {
+  animation: fillUp-bottom 1s forwards;
+}
+
+@keyframes fillUp {
+  0% {
+    clip-path: inset(100% 0 0 0);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes fillUp-bottom {
+  0% {
+    clip-path: inset(0 0 100% 0);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
   }
 }

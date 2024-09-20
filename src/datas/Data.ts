@@ -1,3 +1,31 @@
+interface PartExpenses {
+  name: string;
+  rank: string;
+  earnings: number;
+}
+export const partExpenses: PartExpenses[] = [
+  {
+    name: "이*우",
+    rank: "신한파트너스 1기",
+    earnings: 402,
+  },
+  {
+    name: "구*주",
+    rank: "신한파트너스 4기",
+    earnings: 198,
+  },
+  {
+    name: "이*은",
+    rank: "신한파트너스 5기",
+    earnings: 359,
+  },
+  {
+    name: "정*은",
+    rank: "신한파트너스 6기",
+    earnings: 212,
+  },
+];
+
 interface Part1_3Data {
   name: string;
   range: string;

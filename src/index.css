@@ -35,6 +35,10 @@ body {
   min-width: 340px;
 }
 
+#root {
+  overflow-x: hidden;
+}
+
 .oneShinhan {
   font-family: "OneShinhan";
 }

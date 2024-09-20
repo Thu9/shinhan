@@ -1,5 +1,6 @@
 import Button from "../../components/Button";
 import ContentsBox from "../../components/ContentsBox";
+import Part3_image from "../../components/Part3-image1";
 import TitleBox from "../../components/TitleBox";
 
 export default function Part3_1() {
@@ -15,11 +16,9 @@ export default function Part3_1() {
           </span>
           를 아꼈어요
         </p>
-        <img
-          className="py-[20px] px-[10px]"
-          src="src/assets/images/part3-image1.svg"
-          alt=""
-        />
+        <div className="py-[20px] px-[10px]">
+          <Part3_image />
+        </div>
 
         <div className="px-[10px] py-[20px]">
           <p className="font-bold">보험료 절약과 동시에 소득도 챙겼어요.</p>

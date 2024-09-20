@@ -6,7 +6,7 @@ export default function Footer() {
           <div className="flex items-center p-[5px]">
             <img
               className="w-[18px] h-[20px]"
-              src="src/assets/icons/logo-footer.svg"
+              src="icons/logo-footer.svg"
               alt=""
             />
             <p className="text-[8px]">신한라이프</p>

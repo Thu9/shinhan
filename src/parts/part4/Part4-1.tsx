@@ -1,5 +1,5 @@
 import TitleBox from "../../components/TitleBox";
-
+import { motion } from "framer-motion";
 export default function Part4_1() {
   return (
     <div className="inner pt-[30px] pb-[10px] px-[41px]">
@@ -8,12 +8,29 @@ export default function Part4_1() {
         <span className="text-shinhan-Blue-500 font-extrabold">누구나 </span>할
         수 있나요?
       </p>
-      <img className="mx-auto" src="src/assets/images/part4-image.png" />
-      <p className="py-[20px] px-[10px] font-bold">
+
+      <motion.img
+        className="mx-auto"
+        src="images/part4-image.png"
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.1, duration: 0.3 }}
+      />
+      <motion.p
+        className="py-[20px] px-[10px] font-bold"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.1, duration: 0.3 }}
+      >
         직장인, 주부, 자영업자 등<br />
         누구든지 시작할 수 있어요!
-      </p>
-      <div className="my-[10px] mx-[0.5px] max-w-[310px]">
+      </motion.p>
+      <motion.div
+        className="my-[10px] mx-[0.5px] max-w-[310px]"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.1, duration: 0.3 }}
+      >
         <div>
           <div className="border border-[#f1f1f1] border-b-0 rounded-t-[10px] bg-[#f1f1f1] content-center">
             <p className="text-[10px] font-semibold p-[10px]">
@@ -21,7 +38,7 @@ export default function Part4_1() {
             </p>
           </div>
           <div className="border border-[#f1f1f1] border-t-0 rounded-b-[10px] flex justify-center items-center p-[10px]">
-            <img src="src/assets/icons/part4-icon.svg" alt="" />
+            <img src="icons/part4-icon.svg" alt="" />
             <div className="text-[10px] text-left ml-[10px]">
               <p>
                 1. 신용점수 550점 미만
@@ -33,7 +50,7 @@ export default function Part4_1() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }
