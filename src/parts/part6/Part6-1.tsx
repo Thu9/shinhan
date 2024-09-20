@@ -22,7 +22,6 @@ export default function Part6_1() {
         className="max-w-[311px] bg-white rounded-[10px] py-[5px]"
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1, duration: 0.3 }}
       >
         {part6_1Data.map(({ name, job, title, contents }, index) => (
           <div key={index} className="p-[10px]">

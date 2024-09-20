@@ -14,7 +14,6 @@ export default function Part4_2() {
         src="images/part4-image2.png"
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1, duration: 0.3 }}
       />
 
       <div className="mt-[20px]">
@@ -23,7 +22,6 @@ export default function Part4_2() {
             className="relative w-[164px] h-[118px] bg-shinhan-Blue-500 rounded-[10px] text-white content-center pt-[20px]"
             initial={{ rotateY: 100 }}
             whileInView={{ rotateY: 0 }}
-            transition={{ delay: 0.2, duration: 0.5 }}
           >
             <div className="absolute -top-[25px] left-[50%] -translate-x-1/2 w-[52px] h-[52px] bg-white text-shinhan-Blue-500 rounded-full font-[900] border-4 border-shinhan-Blue-500 content-center">
               01
@@ -38,7 +36,6 @@ export default function Part4_2() {
             className="relative w-[164px] h-[118px] bg-shinhan-Blue-500 rounded-[10px] text-white content-center pt-[20px]"
             initial={{ rotateY: 260 }}
             whileInView={{ rotateY: 360 }}
-            transition={{ delay: 0.2, duration: 0.5 }}
           >
             <div className="absolute -top-[25px] left-[50%] -translate-x-1/2 w-[52px] h-[52px] bg-white text-shinhan-Blue-500 rounded-full font-[900] border-4 border-shinhan-Blue-500 content-center">
               02

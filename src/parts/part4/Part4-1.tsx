@@ -14,13 +14,11 @@ export default function Part4_1() {
         src="images/part4-image.png"
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1, duration: 0.3 }}
       />
       <motion.p
         className="py-[20px] px-[10px] font-bold"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1, duration: 0.3 }}
       >
         직장인, 주부, 자영업자 등<br />
         누구든지 시작할 수 있어요!
@@ -29,7 +27,6 @@ export default function Part4_1() {
         className="my-[10px] mx-[0.5px] max-w-[310px]"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1, duration: 0.3 }}
       >
         <div>
           <div className="border border-[#f1f1f1] border-b-0 rounded-t-[10px] bg-[#f1f1f1] content-center">

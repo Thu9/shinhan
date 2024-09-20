@@ -21,7 +21,6 @@ export default function Part1_1() {
               className="mx-auto my-[20px]"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1, duration: 0.3 }}
               src="images/text-1-image.svg"
             />
             <div className="py-[20px]">
@@ -29,7 +28,6 @@ export default function Part1_1() {
                 className="text-center font-bold"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.1, duration: 0.3 }}
               >
                 네, 물론이에요!
               </motion.p>
@@ -37,7 +35,6 @@ export default function Part1_1() {
                 className="text-center text-[12px] text-shinhan-Blue-350 mt-[12px]"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.1, duration: 0.3 }}
               >
                 내 보험 점검부터 계약을 체결하는 데
                 <br />

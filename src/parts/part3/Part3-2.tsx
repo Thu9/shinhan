@@ -18,14 +18,14 @@ export default function Part3_2() {
           src="images/part3-image2.svg"
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.1, duration: 0.3 }}
+          transition={{ duration: 0.3 }}
         />
         <div className="mx-auto my-[20px] w-[221px]">
           <motion.div
             className="py-[10px] pl-[10px] flex"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1, duration: 0.3 }}
+            transition={{ duration: 0.3 }}
           >
             <div className="w-[67px] h-[39px] bg-shinhan-Blue-500 rounded-[5px] text-[12px] text-white font-extrabold content-center px-[10px]">
               STEP1
@@ -41,7 +41,7 @@ export default function Part3_2() {
             className="py-[10px] pl-[10px] flex"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1, duration: 0.3 }}
+            transition={{ duration: 0.3 }}
           >
             <div className="w-[67px] h-[39px] bg-shinhan-Blue-500 rounded-[5px] text-[12px] text-white font-extrabold content-center px-[10px]">
               STEP2
@@ -57,7 +57,7 @@ export default function Part3_2() {
             className="py-[10px] pl-[10px] flex"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1, duration: 0.3 }}
+            transition={{ duration: 0.3 }}
           >
             <div className="w-[67px] h-[39px] bg-shinhan-Blue-500 rounded-[5px] text-[12px] text-white font-extrabold content-center px-[10px]">
               STEP3

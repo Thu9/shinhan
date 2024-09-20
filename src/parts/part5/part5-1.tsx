@@ -10,7 +10,6 @@ export default function Part5_1() {
           <motion.div
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1, duration: 0.3 }}
           >
             <div className="my-[10px]">
               <div className="p-[10px]">
@@ -84,7 +83,6 @@ export default function Part5_1() {
           src="images/part5-image.svg"
           initial={{ opacity: 0, bottom: -100 }}
           whileInView={{ opacity: 1, bottom: 0 }}
-          transition={{ delay: 0.1, duration: 0.3 }}
         />
       </div>
     </>

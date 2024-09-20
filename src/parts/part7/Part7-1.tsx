@@ -14,7 +14,6 @@ export default function Part7_1() {
         src="images/part7-image.svg"
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1, duration: 0.3 }}
       />
       <div className="px-[10px] py-[20px] max-w-[304px]">
         <div className="flex relative gap-[10px]">
@@ -22,7 +21,6 @@ export default function Part7_1() {
             className="bg-shinhan-Blue-500 rounded-[10px] text-white w-[137px] h-[71px] content-center p-[5px]"
             initial={{ rotateY: -100 }}
             whileInView={{ rotateY: 0 }}
-            transition={{ delay: 0.1, duration: 0.5 }}
           >
             <p className="text-[12px] font-semibold">교육비 + 활동 지원비</p>
             <p className="font-bold">450만원</p>
@@ -31,7 +29,6 @@ export default function Part7_1() {
             className="bg-shinhan-Blue-500 rounded-[10px] text-white w-[137px] h-[71px] content-center p-[5px]"
             initial={{ rotateY: 260 }}
             whileInView={{ rotateY: 360 }}
-            transition={{ delay: 0.1, duration: 0.5 }}
           >
             <p className="text-[12px] font-semibold">Only 교육비</p>
             <p className="font-bold">150만원</p>
@@ -44,7 +41,6 @@ export default function Part7_1() {
           className="text-shinhan-Blue-350 text-[12px] font-semibold my-[20px]"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.1, duration: 0.3 }}
         >
           * 자세한 내용은 사전 미팅후 QnA로 진행됩니다.
         </motion.p>

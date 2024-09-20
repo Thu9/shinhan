@@ -21,7 +21,6 @@ export default function Part1_3() {
       className="part1-3 py-[10px] mb-[10px] pl-[20px]"
       initial={{ opacity: 0, y: 100 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.1, duration: 0.3 }}
     >
       <Swiper spaceBetween={20} slidesPerView={"auto"} centeredSlides={false}>
         {part1_3Data.map(

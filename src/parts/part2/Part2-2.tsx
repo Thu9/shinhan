@@ -19,7 +19,6 @@ export default function Part2_2() {
       className="inner part2-2 pl-[41px] pb-[30px]"
       initial={{ opacity: 0, x: 300 }}
       whileInView={{ opacity: 1, x: 0 }}
-      transition={{ ease: "easeIn", delay: 0.1, duration: 0.3 }}
     >
       <Swiper spaceBetween={10} slidesPerView={"auto"} centeredSlides={false}>
         {part2Data.map(({ job, earnings, emoji }, index) => (
