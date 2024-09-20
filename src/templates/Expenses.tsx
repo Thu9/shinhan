@@ -1,19 +1,9 @@
-import { partExpenses } from "../datas/Data";
+import "swiper/css";
+import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
-import "swiper/css";
-import { useEffect } from "react";
-import { Autoplay } from "swiper/modules";
+import { partExpenses } from "../datas/Data";
 export default function Expenses() {
-  useEffect(() => {
-    const swiperSlides = document.querySelectorAll<HTMLDivElement>(
-      ".part-expenses .swiper-slide"
-    );
-    swiperSlides.forEach((elem) => {
-      // elem.style.height = "100px";
-    });
-  }, []);
-
   return (
     <div
       className="inner h-auto text-center bg-gradient-to-b from-gradient-1 to-gradient-2 
